@@ -1,0 +1,208 @@
+@font-face {
+    src: url(login_fonts/DMSans-Regular.ttf);
+    font-family: dm ; 
+}
+@font-face {
+    src: url(login_fonts/Inter-Bold.ttf);
+    font-family: inter ;
+}
+@font-face {
+    src: url(login_fonts/Poppins-Bold.ttf);
+    font-family: pop ;
+}
+.html_login{
+    background-image: url(Login_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.login_box{
+    border: none;
+    width: 1620px;
+    height: 760px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*.login_inputs::placeholder {
+    padding: 10px; /* Firefox 
+  }*/
+      
+.links{
+    text-decoration: none;
+}
+.login_text{
+    text-align: left;
+    position: absolute;
+    top: 115px;
+    margin: auto;
+    width: 100%;
+    
+}
+.dm{
+    font-family: dm;
+}
+/*.login_brand{
+    font-family: inter;
+    font-size: 64px;
+    margin: auto;
+    width: 99%;   
+}*/
+
+.login_brand_logo{
+    text-align: left;
+    width: 546px;
+    height: 210px;
+}
+.pop{
+    font-family: pop;
+}
+.login_login{
+    font-size: 24px;
+    top: 230px;
+    left: 177px; 
+}
+.login_label{
+    font-size: 16px;
+   
+}
+.login_email{
+    top: 293px;
+    left:60px;
+}
+.login_pass{
+    top: 373px;
+    left:60px;
+}
+.login_inputs{
+    text-align: left;
+    position: absolute;
+    width: 385px;
+    border-radius: 2.5px;
+    height: 40px;
+    padding: 0px 20px;
+    border: none;
+    background-color: rgb(207,198,199);
+    margin: auto;
+    display: inline-block;
+    top: 420px;
+    left: 273px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+.login_inputs_user{
+   
+    position: absolute;
+    top: 340px;
+    
+}
+.login_remember{
+    text-align: left;
+    position: absolute;
+    color: rgb(136,127,122);
+    top:455px;
+    margin: auto;
+    width: 100%;
+    left:80px;
+}
+.login_remember_box{
+    text-align: left;
+    border-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 455px;
+    height: 2%;
+    width: 2%;
+    left: 45px;
+}
+.login_buttons{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block; 
+    border-radius: 10px;
+    width: 425px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    left: 273px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.login_buttons_signup{
+    background-color: rgb(102,4,3); /* Green */
+    top: 640px;
+    text-align: center;
+
+}
+.login_or{
+    color:rgb(161,161,161);
+    text-align: left;
+    position: absolute;
+    border-radius: 50%;
+    top: 560px;
+    left: 265px;
+}
+.login_hr1{
+    color: rgb(161,161,161);
+    text-align: left;
+    border-top: 1px;
+    border-style: solid;
+    position: absolute;
+    width: 12%;
+    left: 3.5%;
+    top: 578px;
+}
+.login_hr2{
+    color:rgb(161,161,161);
+    text-align: left;
+    border-top: 1px;
+    border-style: solid;
+    position: absolute;
+    width: 12%;
+    left: 18%;
+    top: 578px;
+}
+.login_buttons_login{
+    background-color: #000000;
+    text-align: center;
+    position: absolute;
+    top: 540px;
+ 
+}
+.loginlink{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-top: 7px;
+    text-align: center;
+    
+}
+.signuplink{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.forgotlink{
+    text-align: left;
+    position: absolute;
+    color: rgb(136,127,122);
+    top: 455px;
+    margin: auto;
+    width: 100%;
+    left: 360px;
+}
+.login_cafe{
+    position: absolute;
+    height: 760px;
+    width:  1074px;
+    right: 0%;
+}
